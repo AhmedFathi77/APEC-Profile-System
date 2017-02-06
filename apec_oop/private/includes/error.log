@@ -1,0 +1,60 @@
+[06-Feb-2017 01:10:08 Africa/Cairo] PHP Fatal error:  Access level to DataBase::replaceDataEducation() must be public (as in class Crud) in C:\wamp64\www\apec_oop\private\classes\DataBase.php on line 5
+[06-Feb-2017 01:10:08 Africa/Cairo] PHP Stack trace:
+[06-Feb-2017 01:10:08 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\private\classes\test.php:0
+[06-Feb-2017 01:10:08 Africa/Cairo] PHP   2. spl_autoload_call() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:10:08 Africa/Cairo] PHP   3. {closure:C:\wamp64\www\apec_oop\private\includes\config.php:75-78}() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:10:08 Africa/Cairo] PHP   4. require() C:\wamp64\www\apec_oop\private\includes\config.php:77
+[06-Feb-2017 01:12:01 Africa/Cairo] PHP Fatal error:  Access type for interface method Crud::replaceDataEducation() must be omitted in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 9
+[06-Feb-2017 01:12:01 Africa/Cairo] PHP Stack trace:
+[06-Feb-2017 01:12:01 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\private\classes\test.php:0
+[06-Feb-2017 01:12:01 Africa/Cairo] PHP   2. spl_autoload_call() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:12:01 Africa/Cairo] PHP   3. {closure:C:\wamp64\www\apec_oop\private\includes\config.php:75-78}() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:12:01 Africa/Cairo] PHP   4. require() C:\wamp64\www\apec_oop\private\includes\config.php:77
+[06-Feb-2017 01:12:01 Africa/Cairo] PHP   5. spl_autoload_call() C:\wamp64\www\apec_oop\private\classes\DataBase.php:5
+[06-Feb-2017 01:12:01 Africa/Cairo] PHP   6. {closure:C:\wamp64\www\apec_oop\private\includes\config.php:75-78}() C:\wamp64\www\apec_oop\private\classes\DataBase.php:5
+[06-Feb-2017 01:12:28 Africa/Cairo] PHP Fatal error:  Access level to DataBase::replaceDataEducation() must be public (as in class Crud) in C:\wamp64\www\apec_oop\private\classes\DataBase.php on line 5
+[06-Feb-2017 01:12:28 Africa/Cairo] PHP Stack trace:
+[06-Feb-2017 01:12:28 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\private\classes\test.php:0
+[06-Feb-2017 01:12:28 Africa/Cairo] PHP   2. spl_autoload_call() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:12:28 Africa/Cairo] PHP   3. {closure:C:\wamp64\www\apec_oop\private\includes\config.php:75-78}() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:12:28 Africa/Cairo] PHP   4. require() C:\wamp64\www\apec_oop\private\includes\config.php:77
+[06-Feb-2017 01:13:02 Africa/Cairo] PHP Fatal error:  Access type for interface method Crud::replaceDataEducation() must be omitted in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 9
+[06-Feb-2017 01:13:02 Africa/Cairo] PHP Stack trace:
+[06-Feb-2017 01:13:02 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\private\classes\test.php:0
+[06-Feb-2017 01:13:02 Africa/Cairo] PHP   2. spl_autoload_call() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:13:02 Africa/Cairo] PHP   3. {closure:C:\wamp64\www\apec_oop\private\includes\config.php:75-78}() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:13:02 Africa/Cairo] PHP   4. require() C:\wamp64\www\apec_oop\private\includes\config.php:77
+[06-Feb-2017 01:13:02 Africa/Cairo] PHP   5. spl_autoload_call() C:\wamp64\www\apec_oop\private\classes\DataBase.php:5
+[06-Feb-2017 01:13:02 Africa/Cairo] PHP   6. {closure:C:\wamp64\www\apec_oop\private\includes\config.php:75-78}() C:\wamp64\www\apec_oop\private\classes\DataBase.php:5
+[06-Feb-2017 01:13:33 Africa/Cairo] PHP Fatal error:  Access type for interface method Crud::replaceDataEducation() must be omitted in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 9
+[06-Feb-2017 01:13:33 Africa/Cairo] PHP Stack trace:
+[06-Feb-2017 01:13:33 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\private\classes\test.php:0
+[06-Feb-2017 01:13:33 Africa/Cairo] PHP   2. spl_autoload_call() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:13:33 Africa/Cairo] PHP   3. {closure:C:\wamp64\www\apec_oop\private\includes\config.php:75-78}() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:13:33 Africa/Cairo] PHP   4. require() C:\wamp64\www\apec_oop\private\includes\config.php:77
+[06-Feb-2017 01:13:33 Africa/Cairo] PHP   5. spl_autoload_call() C:\wamp64\www\apec_oop\private\classes\DataBase.php:5
+[06-Feb-2017 01:13:33 Africa/Cairo] PHP   6. {closure:C:\wamp64\www\apec_oop\private\includes\config.php:75-78}() C:\wamp64\www\apec_oop\private\classes\DataBase.php:5
+[06-Feb-2017 01:13:58 Africa/Cairo] PHP Fatal error:  Access level to DataBase::replaceDataEducation() must be public (as in class Crud) in C:\wamp64\www\apec_oop\private\classes\DataBase.php on line 5
+[06-Feb-2017 01:13:58 Africa/Cairo] PHP Stack trace:
+[06-Feb-2017 01:13:58 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\private\classes\test.php:0
+[06-Feb-2017 01:13:58 Africa/Cairo] PHP   2. spl_autoload_call() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:13:58 Africa/Cairo] PHP   3. {closure:C:\wamp64\www\apec_oop\private\includes\config.php:75-78}() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:13:58 Africa/Cairo] PHP   4. require() C:\wamp64\www\apec_oop\private\includes\config.php:77
+[06-Feb-2017 01:21:09 Africa/Cairo] PHP Fatal error:  Access level to DataBase::replaceDataEducation() must be public (as in class Crud) in C:\wamp64\www\apec_oop\private\classes\DataBase.php on line 5
+[06-Feb-2017 01:21:09 Africa/Cairo] PHP Stack trace:
+[06-Feb-2017 01:21:09 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\private\classes\test.php:0
+[06-Feb-2017 01:21:09 Africa/Cairo] PHP   2. spl_autoload_call() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:21:09 Africa/Cairo] PHP   3. {closure:C:\wamp64\www\apec_oop\private\includes\config.php:75-78}() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:21:09 Africa/Cairo] PHP   4. require() C:\wamp64\www\apec_oop\private\includes\config.php:77
+[06-Feb-2017 01:26:55 Africa/Cairo] PHP Fatal error:  Access level to DataBase::replaceDataEducation() must be public (as in class Crud) in C:\wamp64\www\apec_oop\private\classes\DataBase.php on line 5
+[06-Feb-2017 01:26:55 Africa/Cairo] PHP Stack trace:
+[06-Feb-2017 01:26:55 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\private\classes\test.php:0
+[06-Feb-2017 01:26:55 Africa/Cairo] PHP   2. spl_autoload_call() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:26:55 Africa/Cairo] PHP   3. {closure:C:\wamp64\www\apec_oop\private\includes\config.php:75-78}() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:26:55 Africa/Cairo] PHP   4. require() C:\wamp64\www\apec_oop\private\includes\config.php:77
+[06-Feb-2017 01:31:53 Africa/Cairo] PHP Fatal error:  Access level to DataBase::replaceDataEducation() must be public (as in class Crud) in C:\wamp64\www\apec_oop\private\classes\DataBase.php on line 5
+[06-Feb-2017 01:31:53 Africa/Cairo] PHP Stack trace:
+[06-Feb-2017 01:31:53 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\private\classes\test.php:0
+[06-Feb-2017 01:31:53 Africa/Cairo] PHP   2. spl_autoload_call() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:31:53 Africa/Cairo] PHP   3. {closure:C:\wamp64\www\apec_oop\private\includes\config.php:75-78}() C:\wamp64\www\apec_oop\private\classes\test.php:11
+[06-Feb-2017 01:31:53 Africa/Cairo] PHP   4. require() C:\wamp64\www\apec_oop\private\includes\config.php:77
