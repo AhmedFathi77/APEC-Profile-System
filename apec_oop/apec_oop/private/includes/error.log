@@ -1,0 +1,405 @@
+[08-Feb-2017 23:54:14 Africa/Cairo] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\wamp64\www\apec_oop\public\views\register.inc.html on line 18
+[08-Feb-2017 23:54:14 Africa/Cairo] PHP Stack trace:
+[08-Feb-2017 23:54:14 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 00:21:03 Africa/Cairo] PHP Notice:  Undefined variable: db in C:\wamp64\www\apec_oop\private\includes\config.php on line 35
+[09-Feb-2017 00:21:03 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 00:21:03 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 00:21:03 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 00:21:03 Africa/Cairo] PHP Notice:  Undefined variable: crud in C:\wamp64\www\apec_oop\private\includes\config.php on line 35
+[09-Feb-2017 00:21:03 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 00:21:03 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 00:21:03 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 00:24:30 Africa/Cairo] PHP Warning:  require(C:/wamp64/www/apec_oop/private/classes/SessionHandlerApec.php): failed to open stream: No such file or directory in C:\wamp64\www\apec_oop\private\includes\config.php on line 26
+[09-Feb-2017 00:24:30 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 00:24:30 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 00:24:30 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 00:24:30 Africa/Cairo] PHP   3. spl_autoload_call() C:\wamp64\www\apec_oop\private\includes\config.php:33
+[09-Feb-2017 00:24:30 Africa/Cairo] PHP   4. {closure:C:\wamp64\www\apec_oop\private\includes\config.php:24-27}() C:\wamp64\www\apec_oop\private\includes\config.php:33
+[09-Feb-2017 00:24:30 Africa/Cairo] PHP Fatal error:  require(): Failed opening required 'C:/wamp64/www/apec_oop/private/classes/SessionHandlerApec.php' (include_path='.;C:\php\pear') in C:\wamp64\www\apec_oop\private\includes\config.php on line 26
+[09-Feb-2017 00:24:30 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 00:24:30 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 00:24:30 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 00:24:30 Africa/Cairo] PHP   3. spl_autoload_call() C:\wamp64\www\apec_oop\private\includes\config.php:33
+[09-Feb-2017 00:24:30 Africa/Cairo] PHP   4. {closure:C:\wamp64\www\apec_oop\private\includes\config.php:24-27}() C:\wamp64\www\apec_oop\private\includes\config.php:33
+[09-Feb-2017 00:24:51 Africa/Cairo] PHP Fatal error:  Declaration of SessionHandlerApec::open(string $save_path, string $session_name) must be compatible with SessionHandlerInterface::open($save_path, $session_name) in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 11
+[09-Feb-2017 00:24:51 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 00:24:51 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 00:24:51 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 00:24:51 Africa/Cairo] PHP   3. spl_autoload_call() C:\wamp64\www\apec_oop\private\includes\config.php:33
+[09-Feb-2017 00:24:51 Africa/Cairo] PHP   4. {closure:C:\wamp64\www\apec_oop\private\includes\config.php:24-27}() C:\wamp64\www\apec_oop\private\includes\config.php:33
+[09-Feb-2017 00:24:51 Africa/Cairo] PHP   5. require() C:\wamp64\www\apec_oop\private\includes\config.php:26
+[09-Feb-2017 00:26:23 Africa/Cairo] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Crud::selectData() must be an instance of DataBase, instance of PDO given, called in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 26 and defined in C:\wamp64\www\apec_oop\private\classes\Crud.php:142
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(26): Crud->selectData(Object(PDO), Array, Array)
+#1 [internal function]: SessionHandlerApec->read('4cuac5cfs1ukttg...')
+#2 C:\wamp64\www\apec_oop\private\includes\config.php(36): session_start()
+#3 C:\wamp64\www\apec_oop\public\newuser.php(4): require_once('C:\\wamp64\\www\\a...')
+#4 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 142
+[09-Feb-2017 00:26:23 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::exexute() in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:47
+Stack trace:
+#0 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#1 [internal function]: session_write_close()
+#2 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 47
+[09-Feb-2017 00:31:00 Africa/Cairo] PHP Notice:  Undefined index: all in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 145
+[09-Feb-2017 00:31:00 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 00:31:00 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 00:31:00 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 00:31:00 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:36
+[09-Feb-2017 00:31:00 Africa/Cairo] PHP   4. SessionHandlerApec->read() C:\wamp64\www\apec_oop\private\includes\config.php:36
+[09-Feb-2017 00:31:00 Africa/Cairo] PHP   5. Crud->selectData() C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:26
+[09-Feb-2017 00:31:00 Africa/Cairo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at C:\wamp64\www\apec_oop\private\classes\Crud.php:145) in C:\wamp64\www\apec_oop\private\includes\config.php on line 36
+[09-Feb-2017 00:31:00 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 00:31:00 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 00:31:00 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 00:31:00 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:36
+[09-Feb-2017 00:31:00 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to undefined method DataBase::prepare() in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:44
+Stack trace:
+#0 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#1 [internal function]: session_write_close()
+#2 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 44
+[09-Feb-2017 00:33:45 Africa/Cairo] PHP Notice:  Undefined index: all in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 145
+[09-Feb-2017 00:33:45 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 00:33:45 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 00:33:45 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 00:33:45 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:36
+[09-Feb-2017 00:33:45 Africa/Cairo] PHP   4. SessionHandlerApec->read() C:\wamp64\www\apec_oop\private\includes\config.php:36
+[09-Feb-2017 00:33:45 Africa/Cairo] PHP   5. Crud->selectData() C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:26
+[09-Feb-2017 00:33:46 Africa/Cairo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at C:\wamp64\www\apec_oop\private\classes\Crud.php:145) in C:\wamp64\www\apec_oop\private\includes\config.php on line 36
+[09-Feb-2017 00:33:46 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 00:33:46 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 00:33:46 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 00:33:46 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:36
+[09-Feb-2017 00:33:46 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to undefined method DataBase::prepare() in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:44
+Stack trace:
+#0 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#1 [internal function]: session_write_close()
+#2 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 44
+[09-Feb-2017 00:36:14 Africa/Cairo] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 144
+[09-Feb-2017 00:37:10 Africa/Cairo] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 144
+[09-Feb-2017 00:39:48 Africa/Cairo] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 151
+[09-Feb-2017 00:41:47 Africa/Cairo] PHP Notice:  Array to string conversion in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 150
+[09-Feb-2017 00:41:47 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 00:41:47 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 00:41:47 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 00:41:47 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:36
+[09-Feb-2017 00:41:47 Africa/Cairo] PHP   4. SessionHandlerApec->read() C:\wamp64\www\apec_oop\private\includes\config.php:36
+[09-Feb-2017 00:41:47 Africa/Cairo] PHP   5. Crud->selectData() C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:26
+[09-Feb-2017 00:41:47 Africa/Cairo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at C:\wamp64\www\apec_oop\private\classes\Crud.php:150) in C:\wamp64\www\apec_oop\private\includes\config.php on line 36
+[09-Feb-2017 00:41:47 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 00:41:47 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 00:41:47 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 00:41:47 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:36
+[09-Feb-2017 00:41:47 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to undefined method DataBase::prepare() in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:44
+Stack trace:
+#0 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#1 [internal function]: session_write_close()
+#2 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 44
+[09-Feb-2017 00:43:10 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to undefined method DataBase::prepare() in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:44
+Stack trace:
+#0 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#1 [internal function]: session_write_close()
+#2 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 44
+[09-Feb-2017 00:47:42 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '4cuac5cfs1ukttgl7ae7atia40'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:47
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(47): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 47
+[09-Feb-2017 00:47:42 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 00:47:42 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 00:47:42 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 00:47:42 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:36
+[09-Feb-2017 00:47:42 Africa/Cairo] PHP   4. SessionHandlerApec->read() C:\wamp64\www\apec_oop\private\includes\config.php:36
+[09-Feb-2017 00:47:42 Africa/Cairo] PHP   5. Crud->selectData() C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:26
+[09-Feb-2017 00:48:59 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '4cuac5cfs1ukttgl7ae7atia40'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:47
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(47): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 47
+[09-Feb-2017 00:48:59 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 00:48:59 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 00:48:59 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 00:48:59 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:36
+[09-Feb-2017 00:48:59 Africa/Cairo] PHP   4. SessionHandlerApec->read() C:\wamp64\www\apec_oop\private\includes\config.php:36
+[09-Feb-2017 00:48:59 Africa/Cairo] PHP   5. Crud->selectData() C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:26
+[09-Feb-2017 00:49:28 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '4cuac5cfs1ukttgl7ae7atia40'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:47
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(47): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 47
+[09-Feb-2017 00:49:28 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 00:49:28 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 00:49:28 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 00:49:28 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:36
+[09-Feb-2017 00:49:28 Africa/Cairo] PHP   4. SessionHandlerApec->read() C:\wamp64\www\apec_oop\private\includes\config.php:36
+[09-Feb-2017 00:49:28 Africa/Cairo] PHP   5. Crud->selectData() C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:26
+[09-Feb-2017 00:49:41 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '4cuac5cfs1ukttgl7ae7atia40'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:47
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(47): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 47
+[09-Feb-2017 00:49:41 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 00:49:41 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 00:49:41 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 00:49:41 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:37
+[09-Feb-2017 00:49:41 Africa/Cairo] PHP   4. SessionHandlerApec->read() C:\wamp64\www\apec_oop\private\includes\config.php:37
+[09-Feb-2017 00:49:41 Africa/Cairo] PHP   5. Crud->selectData() C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:26
+[09-Feb-2017 00:52:29 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '4cuac5cfs1ukttgl7ae7atia40'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:47
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(47): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 47
+[09-Feb-2017 00:56:00 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '4cuac5cfs1ukttgl7ae7atia40'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:47
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(47): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 47
+[09-Feb-2017 00:57:52 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '?'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:47
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(47): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 47
+[09-Feb-2017 01:01:57 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = '4cuac5cfs1ukttgl7ae7atia40'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:47
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(47): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 47
+[09-Feb-2017 01:03:00 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = '?'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:47
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(47): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 47
+[09-Feb-2017 01:04:43 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::bindvalues() in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:45
+Stack trace:
+#0 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#1 [internal function]: session_write_close()
+#2 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 45
+[09-Feb-2017 01:10:13 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = '?'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:47
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(47): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 47
+[09-Feb-2017 01:10:48 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = '4cuac5cfs1ukttgl7ae7atia40'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:47
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(47): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 47
+[09-Feb-2017 01:13:17 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '4cuac5cfs1ukttgl7ae7atia40'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:47
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(47): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 47
+[09-Feb-2017 01:15:14 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '?'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:47
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(47): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 47
+[09-Feb-2017 01:21:48 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '4cuac5cfs1ukttgl7ae7atia40'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:47
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(47): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 47
+[09-Feb-2017 01:22:17 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '4cuac5cfs1ukttgl7ae7atia40'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:47
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(47): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 47
+[09-Feb-2017 01:27:48 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '4cuac5cfs1ukttgl7ae7atia40'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:51
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(51): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 51
+[09-Feb-2017 01:27:48 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 01:27:48 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 01:27:48 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 01:27:48 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:35
+[09-Feb-2017 01:27:48 Africa/Cairo] PHP   4. SessionHandlerApec->read() C:\wamp64\www\apec_oop\private\includes\config.php:35
+[09-Feb-2017 01:29:59 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '4cuac5cfs1ukttgl7ae7atia40'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:51
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(51): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 51
+[09-Feb-2017 01:29:59 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 01:29:59 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 01:29:59 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 01:29:59 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:35
+[09-Feb-2017 01:29:59 Africa/Cairo] PHP   4. SessionHandlerApec->read() C:\wamp64\www\apec_oop\private\includes\config.php:35
+[09-Feb-2017 01:30:53 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '4cuac5cfs1ukttgl7ae7atia40'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:51
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(51): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 51
+[09-Feb-2017 01:30:53 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 01:30:53 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 01:30:53 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 01:30:53 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:35
+[09-Feb-2017 01:30:53 Africa/Cairo] PHP   4. SessionHandlerApec->read() C:\wamp64\www\apec_oop\private\includes\config.php:35
+[09-Feb-2017 01:31:29 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '4cuac5cfs1ukttgl7ae7atia40'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:51
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(51): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 51
+[09-Feb-2017 01:31:29 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 01:31:29 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 01:31:29 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 01:31:29 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:35
+[09-Feb-2017 01:31:29 Africa/Cairo] PHP   4. SessionHandlerApec->read() C:\wamp64\www\apec_oop\private\includes\config.php:35
+[09-Feb-2017 01:32:43 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '4cuac5cfs1ukttgl7ae7atia40'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:52
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(52): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 52
+[09-Feb-2017 01:32:43 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 01:32:43 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 01:32:43 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 01:32:43 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:35
+[09-Feb-2017 01:32:43 Africa/Cairo] PHP   4. SessionHandlerApec->read() C:\wamp64\www\apec_oop\private\includes\config.php:35
+[09-Feb-2017 01:35:08 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = '4cuac5cfs1ukttgl7ae7atia40'' at line 1 in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:54
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(54): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 54
+[09-Feb-2017 01:35:08 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 01:35:08 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 01:35:08 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 01:35:08 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:35
+[09-Feb-2017 01:35:08 Africa/Cairo] PHP   4. SessionHandlerApec->read() C:\wamp64\www\apec_oop\private\includes\config.php:35
+[09-Feb-2017 02:21:23 Africa/Cairo] PHP Notice:  Undefined variable: crudinstance in C:\wamp64\www\apec_oop\private\includes\config.php on line 23
+[09-Feb-2017 02:21:23 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 02:21:23 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 02:21:23 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 02:21:23 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function selectData() on null in C:\wamp64\www\apec_oop\private\includes\config.php:24
+Stack trace:
+#0 C:\wamp64\www\apec_oop\public\newuser.php(4): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\apec_oop\private\includes\config.php on line 24
+[09-Feb-2017 02:31:23 Africa/Cairo] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 167
+[09-Feb-2017 02:31:23 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 02:31:23 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 02:31:23 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 02:31:23 Africa/Cairo] PHP   3. Crud->selectData() C:\wamp64\www\apec_oop\private\includes\config.php:24
+[09-Feb-2017 02:31:23 Africa/Cairo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at C:\wamp64\www\apec_oop\private\includes\config.php:30) in C:\wamp64\www\apec_oop\private\includes\config.php on line 31
+[09-Feb-2017 02:31:23 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 02:31:23 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 02:31:23 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 02:31:23 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:31
+[09-Feb-2017 02:36:10 Africa/Cairo] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 166
+[09-Feb-2017 02:36:10 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 02:36:10 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 02:36:10 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 02:36:10 Africa/Cairo] PHP   3. Crud->selectData() C:\wamp64\www\apec_oop\private\includes\config.php:24
+[09-Feb-2017 02:36:10 Africa/Cairo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at C:\wamp64\www\apec_oop\private\includes\config.php:30) in C:\wamp64\www\apec_oop\private\includes\config.php on line 31
+[09-Feb-2017 02:36:10 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 02:36:10 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 02:36:10 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 02:36:10 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:31
+[09-Feb-2017 02:36:48 Africa/Cairo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at C:\wamp64\www\apec_oop\private\includes\config.php:30) in C:\wamp64\www\apec_oop\private\includes\config.php on line 31
+[09-Feb-2017 02:36:48 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 02:36:48 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 02:36:48 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 02:36:48 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:31
+[09-Feb-2017 02:37:25 Africa/Cairo] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at C:\wamp64\www\apec_oop\private\includes\config.php:31) in C:\wamp64\www\apec_oop\private\includes\config.php on line 32
+[09-Feb-2017 02:37:25 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 02:37:25 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 02:37:25 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 02:37:25 Africa/Cairo] PHP   3. session_start() C:\wamp64\www\apec_oop\private\includes\config.php:32
+[09-Feb-2017 02:39:33 Africa/Cairo] PHP Notice:  Undefined variable: db_instance in C:\wamp64\www\apec_oop\private\includes\config.php on line 22
+[09-Feb-2017 02:39:33 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 02:39:33 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 02:39:33 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 02:39:33 Africa/Cairo] PHP Notice:  Undefined variable: crud_instance in C:\wamp64\www\apec_oop\private\includes\config.php on line 22
+[09-Feb-2017 02:39:33 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 02:39:33 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 02:39:33 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 02:39:33 Africa/Cairo] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to SessionHandlerApec::__construct() must be an instance of DataBase, null given, called in C:\wamp64\www\apec_oop\private\includes\config.php on line 22 and defined in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:15
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\includes\config.php(22): SessionHandlerApec->__construct(NULL, NULL)
+#1 C:\wamp64\www\apec_oop\public\newuser.php(4): require_once('C:\\wamp64\\www\\a...')
+#2 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 15
+[09-Feb-2017 02:41:45 Africa/Cairo] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 166
+[09-Feb-2017 02:41:45 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 02:41:45 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 02:41:45 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 02:41:45 Africa/Cairo] PHP   3. Crud->selectData() C:\wamp64\www\apec_oop\private\includes\config.php:29
+[09-Feb-2017 02:43:31 Africa/Cairo] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 166
+[09-Feb-2017 02:43:31 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 02:43:31 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 02:43:31 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 02:43:31 Africa/Cairo] PHP   3. Crud->selectData() C:\wamp64\www\apec_oop\private\includes\config.php:29
+[09-Feb-2017 02:43:42 Africa/Cairo] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 166
+[09-Feb-2017 02:43:42 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 02:43:42 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 02:43:42 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 02:43:42 Africa/Cairo] PHP   3. Crud->selectData() C:\wamp64\www\apec_oop\private\includes\config.php:29
+[09-Feb-2017 02:43:44 Africa/Cairo] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 166
+[09-Feb-2017 02:43:44 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 02:43:44 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 02:43:44 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 02:43:44 Africa/Cairo] PHP   3. Crud->selectData() C:\wamp64\www\apec_oop\private\includes\config.php:29
+[09-Feb-2017 02:44:58 Africa/Cairo] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 166
+[09-Feb-2017 02:44:58 Africa/Cairo] PHP Stack trace:
+[09-Feb-2017 02:44:58 Africa/Cairo] PHP   1. {main}() C:\wamp64\www\apec_oop\public\newuser.php:0
+[09-Feb-2017 02:44:58 Africa/Cairo] PHP   2. require_once() C:\wamp64\www\apec_oop\public\newuser.php:4
+[09-Feb-2017 02:44:58 Africa/Cairo] PHP   3. Crud->selectData() C:\wamp64\www\apec_oop\private\includes\config.php:29
+[09-Feb-2017 02:51:04 Africa/Cairo] PHP Fatal error:  Uncaught Error: Undefined class constant 'Fetch_ASSOC' in C:\wamp64\www\apec_oop\private\classes\Crud.php:166
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\includes\config.php(29): Crud->selectData(Object(DataBase), Array, Array)
+#1 C:\wamp64\www\apec_oop\public\newuser.php(4): require_once('C:\\wamp64\\www\\a...')
+#2 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\Crud.php on line 166
+[09-Feb-2017 03:09:08 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'session_data' in 'field list' in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php:52
+Stack trace:
+#0 C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php(52): PDOStatement->execute()
+#1 [internal function]: SessionHandlerApec->write('4cuac5cfs1ukttg...', '')
+#2 [internal function]: session_write_close()
+#3 {main}
+  thrown in C:\wamp64\www\apec_oop\private\classes\SessionHandlerApec.php on line 52

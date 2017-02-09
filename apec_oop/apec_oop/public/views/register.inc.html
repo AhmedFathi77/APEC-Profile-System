@@ -1,0 +1,32 @@
+
+<body>
+  <div class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
+    <div class="cd-user-modal-container"> <!-- this is the container wrapper -->
+      <ul class="cd-switcher">
+        <li><a href="#0">New account</a></li>
+      </ul>
+      </div> <!-- cd-signup -->
+    </div> <!-- cd-user-modal-container -->
+  </div> <!-- cd-user-modal -->
+
+  <form method='POST' action = <?php echo basename($_SERVER['PHP_SELF']); ?>>
+<div class="content">
+  <div class="title">Create New  account</div>
+  <input type="text" name = 'first_name' placeholder="First Name" required>
+  <input type="text" name = 'last_name' placeholder="Last Name" required>
+  <input type="text" readonly name = 'country'  required>
+  <input type="number" name = 'user_phone' placeholder="Phone Number" min="0" maxlength="11" required>
+  <input type="password" name = 'password' placeholder="Password" required>
+  <button type ='submit'>Create Account</button>
+  <?php if(function_exists('form_token'))echo form_token(); else  echo ''; ?>
+  <div class="already">Already have an account? <a href="#">Sign In</a></div>
+</div>
+</form>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/index_1.js"></script>
+
+</body>
+</html>
